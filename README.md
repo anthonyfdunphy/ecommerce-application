@@ -1,10 +1,8 @@
-# ecommerce-application
-E-Commerce Website
-
 # Jewelry Website
 
 
 Click [here](url here) to live site.  
+
 ------
 
 ## UX
