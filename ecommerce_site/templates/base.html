@@ -17,10 +17,8 @@
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     {% endblock %}
 
     {% block extra_css %}
@@ -81,7 +79,7 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %} text-info font-weight-bold {% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %} text-info font-weight-bold {% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-thin"></i></div>
                                 <p class="my-0">
@@ -108,7 +106,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col fucked-up bg-black text-white">
-                <h4 class="logo-front my-1">Free delivery on orders over ${{ free_shipping_treshold }}!</h4>
+                <h4 class="logo-front my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
             </div>
         </div>
     </header>
