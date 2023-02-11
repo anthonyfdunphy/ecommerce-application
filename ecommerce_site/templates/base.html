@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     {% endblock %}
 
     {% block extra_css %}
@@ -41,11 +41,11 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-large py-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black"><strong>Jewelery</strong> Logo</h2>
+                    <h2 class="logo-font text-black"><strong>Ink &</strong> Crest</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-large py-0 text-center text-lg-left">
-                <form method="GET" action="">
+                <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site...">
                         <div class="input-group-append">
