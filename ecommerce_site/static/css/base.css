@@ -33,6 +33,18 @@ body {
     min-width: 260px;
 }
 
+.input-group {
+  width: 0%;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  background: red;
+}
+
+.input-group:hover {
+  width: 100%;
+  cursor: pointer;
+}
+
 .btn-black {
     background: black;
     color: white;
