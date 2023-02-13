@@ -1,9 +1,17 @@
-var button = document.getElementById("shop-now-button");
+window.onload = function() {
+  const button = document.getElementById("shop-now-button");
+  button.addEventListener ( 'mouseover' ,  mouseOver );
+  button.addEventListener ( 'mouseout' ,  mouseOut );
 
-button.attachEvent("onmouseover", function() {
-  button.classList.add("change-color");
-});
+  function  mouseOver() { 
+    button.style.transition = "1s";
+    document.documentElement.style.transition = "2s";
+    document.documentElement.style.setProperty("--color", "lightblue");
+  }
 
-button.attachEvent("onmouseout", function() {
-  button.classList.remove("change-color");
-});
+  function  mouseOut() { 
+    button.style.transition = "1s";
+    document.documentElement.style.transition = "2s";
+    document.documentElement.style.setProperty("--color", "#ff90e8");
+  }
+};
