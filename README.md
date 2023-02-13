@@ -53,16 +53,6 @@ The app is designed as a e-commerce application that encourages the users to mak
 |  [#110](https://github.com/JoGorska/bonsai-shop/issues/110) | As a newsletter subscriber I can have a link for unsubscribing so that unsubscribe from newsletter | newsletter app |
 |  [#118](https://github.com/JoGorska/bonsai-shop/issues/118) | As a store owner I can switch quickly between published and unpublished questions so that I know what has been written on the same subject before | questions app
 
-### User stories that are planned for next sprint
-
-| id  |  content | 
-| ------ | ------ |
-|  [#34](https://github.com/JoGorska/bonsai-shop/issues/34) | As a shopper I can have my address auto filled after I typed my postcode so that I don't have to type all address manually |
-|  [#18](https://github.com/JoGorska/bonsai-shop/issues/18) | As a store owner I can update the stock numbers so that the shoppers know if the product is available |
-|  [#19](https://github.com/JoGorska/bonsai-shop/issues/19) | As a shop owner I can see who is interested in the product that have run out of stock so that I can order more products of this type |
-|  [#32](https://github.com/JoGorska/bonsai-shop/issues/32) | As a user I can have interactive validation on input so that I can see if what I am writing is correct before submitting the form |
-|  [#84](https://github.com/JoGorska/bonsai-shop/issues/84) | As a user I can see that I forgot to check subscription or privacy policy checkbox so that I can correct my mistake before the page is reloaded |
-|  [#116](https://github.com/JoGorska/bonsai-shop/issues/116) | As a user that asked question in FAQ I can subscribe to newsletter after I asked the question so that receive answer in my email |
 
 ## Wireframes 
 
@@ -136,7 +126,7 @@ The profile app has been designed by using the same template as checkout app. Th
 
 ## Agile Methodology
 
-### Canban board and issues
+### Kanban Board
 
 ![Screenshot of the canban board](README_docs/canban-board/kanban-initial.PNG)
 
@@ -144,13 +134,6 @@ The profile app has been designed by using the same template as checkout app. Th
 Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [here](https://github.com/JoGorska/bonsai-shop/projects/1). The issues are currently in two categories - done or for the next relese. 
 
 The issues were than closed automaticaly when the pull request was linked to the issue. 
-
-
-### Sprints - milestones
-
-![Screenshot of the milestonse ](README_docs/canban-board/milestones-initial.PNG)
-
-The issues have been divided into sprints. Further sprints have been created later in the project. 
 
 
 ## Existing Features
@@ -166,10 +149,6 @@ The current link has a class active added and the color of the icon and text cha
 ### Footer
 Footer is kept very simple as set of links and a little text. It allows user to navigate back to the top of the page, 
 
-
-### The caourusel
-
-This feature is used on home page and on FAQ. This scrolls three different photos with different captions. One is encouraging to sign up to newsletter, the other one to go to shop and the third one to ask question. For better visibility each caption has been given strong dark background.
 
 ### The people section of home page
 
@@ -241,10 +220,6 @@ Links are often styled as a button to allow a nice flow of the page.
 
 ## Future Features 
 
-### Google places API to fetch address data
-
-Autofill the address fields in profile form and in checkout by using google places API. This would speed up the checkout process.
-
 ### Current stock
 
 Stock numbers - the future development needs to be focused on adding a some kind of stock app. The views and webhook handlers might need updating to reflect the impact of the completed purchase on the trees in stock. Currently tree model has quantity column that is not being utilised. 
@@ -285,13 +260,25 @@ The site has been equipped with sitemap generated [here](https://www.xml-sitemap
 
 The site also has privacy policy and terms of service - both documents generated [here](https://policymaker.io/)
 
-## Web Marketing
+## Marketing Strategies
 
-### Newsletter
+### Current Marketing Strategies
 
-I've opted for creating a custom Newsletter model and not to use Mailchimp. The Page owner can send regular interesting content containing advice on bonsai to the subscribers. 
+Marketing Strategies:
 
-I wanted to give the visitor a freedom to sign up to the newsletter without commiting to sign up to the page. This was not a good decision as it left this app vunruble with open unsecured urls.
+Search Engine Optimization (SEO): Optimizing the website for search engines by using keywords related to signet rings and jewelry. This will help in increasing the visibility of the website and attract more organic traffic.
+
+Social Media Marketing: Using social media platforms such as Facebook, Instagram, and Pinterest to reach a large audience and promote the signet rings. This can be done by creating engaging content and running targeted ad campaigns.
+
+### Future Marketing Strategies
+
+Influencer Marketing: Collaborating with influencers in the jewelry and fashion industry to promote the signet rings to their followers. This can be done by offering them incentives such as commission on sales or free products.
+
+Email Marketing: Building a database of customers and sending them regular newsletters and promotional offers to keep them engaged and encourage them to make purchases.
+
+Referral Marketing: Encouraging customers to refer their friends and family to the website by offering them incentives such as discounts or free products.
+
+By following these e-commerce and marketing strategies, the jewelry website can attract a large customer base, increase sales, and generate revenue.
 
 
 ### Facebook
