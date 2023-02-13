@@ -15,6 +15,12 @@ body {
     font-family: 'MyFont', sans-serif;
 }
 
+.no-bottom-border {
+    /* border-top: 1px solid #000; */
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}  
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -38,17 +44,21 @@ body {
     min-width: 260px;
 }
 
-.input-group {
-  width: 0%;
-  transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  background: red;
+.quantity-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    text-align: center;
 }
 
-.input-group:hover {
-  width: 100%;
-  cursor: pointer;
+/* added styling to form to center and remove border styling */
+.form-control {
+    text-align: center;
+    border-width: 0;
+    z-index: -1;
 }
+  
 
 .btn-black {
     background: black;
@@ -89,6 +99,14 @@ body {
 .bg-black {
     background: #000 !important;
 }
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: black;
+}  
 
 .overlay {
 	height: 100%;
