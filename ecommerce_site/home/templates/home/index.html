@@ -18,7 +18,7 @@
                 </h1>
                 <div class="my-5">
                     <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-5 text-uppercase py-3 stack-buttons">Shop Now</a>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-5 text-uppercase py-3 stack-buttons" id="shop-now-button">Shop Now</a>
                     </h4>
                     <h4>
                         <a href="{% url 'products' %}" class="shop-now-button-pink btn btn-lg rounded-5 text-uppercase py-3 border border-black stack-buttons">Shop Now</a>
@@ -27,4 +27,8 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+    <script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
