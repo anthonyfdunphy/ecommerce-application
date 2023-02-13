@@ -24,7 +24,7 @@ The app is designed as a e-commerce application that encourages the users to mak
 
 | id  |  content | how was it satisfied
 | ------ | ------ | ------ |
-|  [#1](https://github.com/JoGorska/bonsai-shop/issues/1) | As a Shopper I can register as a user and have ability to login so that my personal data is saved for future shopping | profile |
+|  [#1](https://github.com/anthonyfdunphy/ecommerce-application/issues/2) | User must be able to register and have ability to login| profile |
 |  [#2](https://github.com/JoGorska/bonsai-shop/issues/2) | As a shopper I can see a list of products so that so I can view what shop can offer | trees app |
 |  [#3](https://github.com/JoGorska/bonsai-shop/issues/3) | As a shopper I can sort the procucts by various categories so that I can find what I am looking for | trees app |
 |  [#4](https://github.com/JoGorska/bonsai-shop/issues/4) | As a shopper I can add and remove items from my shopping trolley so that I can see how much I will spend | trolley app |
