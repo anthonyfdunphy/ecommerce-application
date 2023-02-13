@@ -38,10 +38,50 @@ body {
     width: fit-content;
 }
 
+/* added styling for main shop now button and hover animation */
+
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
+    transition: transform 250ms;
+}
+
+.shop-now-button:hover {
+    transform: translate3d(-1rem, -1rem,0rem);
+}
+
+.shop-now-button-pink {
+    background: pink;
+    color: white;
+    min-width: 260px;
+    transition: transform 250ms;
+    z-index: -9;
+}
+
+.shop-now-button-pink:hover {
+    background: pink;
+    color: white;
+    transform: translate3d(-0.5rem, -0.5rem,0rem);
+}
+
+.shop-now-button-yellow {
+    background: yellow;
+    color: white;
+    min-width: 260px;
+    transition: transform 250ms;
+    z-index: -9;
+}
+
+.shop-now-button-yellow:hover {
+    background: yellow;
+    color: white;
+    min-width: 260px;
+    transition: transform 250ms;
+}
+
+.stack-buttons {
+    position: absolute;
 }
 
 .quantity-btn {
@@ -69,6 +109,12 @@ body {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
+}
+
+.btn-outline-black-large {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 5px solid black;
 }
 
 .btn-outline-black:hover,
