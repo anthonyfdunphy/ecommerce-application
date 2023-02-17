@@ -37,6 +37,14 @@ The purpose of this website is to provide an online platform for users to browse
 
 ### User Stories that have been satisfied by creation of particular apps in ths project:
 
+User stories played a significant role in the development of this project. We started by gathering requirements from various stakeholders to understand their needs and expectations. From there, we created user stories to describe how users would interact with the website and what features they would need.
+
+We used user stories to guide the development of the website, ensuring that we were creating features that met the needs of our users. For example, a user story for a customer looking to purchase an engagement ring would outline the steps that they need to take to find and purchase the perfect ring, such as browsing through different styles, filtering by price range, and completing the checkout process.
+
+User stories were also used to test the website, ensuring that it met the needs of users at all stages of the purchase process. We used the user stories to create test cases that we could use to verify that the website was functioning as intended.
+
+In summary, user stories were an essential component of the project's development, providing a framework for understanding user needs and guiding the development of features that met those needs. By keeping the user in mind throughout the development process, we were able to create a website that is intuitive, user-friendly, and meets the needs of our target audience.
+
 | id  |  content | how was it satisfied
 | ------ | ------ | ------ |
 |  [#1](https://github.com/anthonyfdunphy/ecommerce-application/issues/2) | User must be able to register and have ability to login| profile |
