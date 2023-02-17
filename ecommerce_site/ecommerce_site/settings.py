@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'questions',
     'newsletter',
     'contact',
+    'sitestats',
 
     # Other
     'crispy_forms',
