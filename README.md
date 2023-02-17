@@ -81,70 +81,20 @@ In summary, user stories were an essential component of the project's developmen
 
 The general structure of the page was based on 1/3 proportions in many of it's features. Wireframes were created with [Pencil Project](https://pencil.evolus.vn/).
 
+The creation of wireframes for the homepage, product page, and user profile page was an important step in the development of this project.
 
-### Home page
+Wireframes are visual representations of the website's layout, providing a blueprint for how the different elements of the page will be arranged. They help to identify the most important components of the page and ensure that they are given adequate prominence.
 
-![wireframes of home page](README_docs/wireframes/01-home.PNG)
-The desing of this page is heavily inspired by bootstrap examples found [here](https://getbootstrap.com/docs/4.0/examples/product/). This design was than further individualised to match the overal style of the page.
+### Home Page
+For the homepage, we started by creating a wireframe that laid out the main sections of the page, such as the header, navigation, featured products, and promotional banners. We used this wireframe to refine the design and ensure that the most important elements were easily accessible to users.
 
-Home page is divided into three main sections: carousele, staff images and FAQ questions. This aims to give the user a feeling of dealing with real people and entice them to interesting content.
+### Product Page
+The product page wireframe focused on the layout of individual product pages, including product descriptions, pricing, and images. We made sure to include features that are important to customers, such as customer reviews, product ratings, and related product recommendations.
 
-### Shop - trees app
+### User Profile App - allauth
+The user profile page wireframe focused on the layout of a user's personal account page, including their order history, saved items, and personal information. We designed the user profile page to be easy to navigate and visually appealing, ensuring that users would find it easy to access and use their account information.
 
-![wireframes of trees page](README_docs/wireframes/01-trees.PNG)
-
-The trees app is divided into two main sections: the sorting/fitering tiles and the list of trees. 
-
-Bootstrap grid was used for both of those features to make sure that all of the cards sets are responsive. 
-
-Jquery script allows the user to choose the option to filter or sort the trees. On click of appropriate tiles, more tiles apear. 
-
-Each card with the tree has been equipped with two buttons buy now and details.
-
-![wireframes of trees details page](README_docs/wireframes/02-trees-detail.PNG)
-
-The trees detail cards were designed so the photo of the tree is nicely featured, but not overwelming. The features of the trees are extra visible thanks to icon and a badge effect arround each of them. The card is equipped with a buttons allowing user to purchase the tree.
-
-### FAQ - questions app
-
-![wireframes of questions page](README_docs/wireframes/03-questions.PNG)
-
-This page has been designed as a simple list view. Carousele features top part of the page and below it the user will find the list of published questions in the form of accordeon.
-
-Once the accordeon is opened, the user can see the image and text refering to this question. 
-
-![wireframes of questions form](README_docs/wireframes/03-questions-form.PNG)
-
-The form has been designed with minimal involvement in mind. It allows user just submit a few fields. They can choose to add image. Once the question is submitted it has to wait for superuser to add answer and change the status to published.
-
-The same template is used to display the unpublished questions for the superuser to edit. Superuser is given the same form with some additional fields revieled like answer and status.
-
-### Trolley app
-
-![wireframes of trolley page](README_docs/wireframes/04-trolley.PNG)
-
-The trolley page has been designed similarly to amazon shopping bag. The summary of the order is right at the top of the page, whle the products are listed below inside a card with little image of each product. 
-
-For mobile phone the image of the tree goes very small, but this is again in keeping with amazon styling - as it seems it is more user intuitive to have image and information side by side.
-
-![wireframes of trolley checkout page](README_docs/wireframes/04-trolley-checkout.PNG)
-
-Checkout page has been inspired by bootstrap examples found [here](https://getbootstrap.com/docs/4.0/examples/checkout/) This gives the user a form on the left hand side and a very short summary of purchased items on the right hand side. 
-
-![wireframes of trolley order confirmation page](README_docs/wireframes/04-trolley-order-conf.PNG)
-
-The order confirmation is a big card containing all relevant information about the purchase that has just been completed. The user is also notified by email that the purchase has been completed as well as by toast notification in the page.
-
-### User app - allauth
-
-![wireframes of logging in page](README_docs/wireframes/05-login.PNG)
-
-The allauth templates have been styled by bootstrap classes to match the general feel and design of the page. 
-
-### Profile app
-![wireframes of profile page](README_docs/wireframes/05-profile.PNG)
-
-The profile app has been designed by using the same template as checkout app. The profile form is on the left and previous orders list is on the right.
+Overall, the creation of wireframes for the homepage, product page, and user profile page was an important step in ensuring that the website was well-designed and user-friendly. By creating a clear blueprint for the layout of each page, we were able to design a website that meets the needs of our target audience and provides a positive user experience.
 
 ### Custom Model Views
 
@@ -158,77 +108,18 @@ The profile app has been designed by using the same template as checkout app. Th
 ![Screenshot of the canban board](README_docs/canban-board/kanban-initial.PNG)
 
 
-Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [here](https://github.com/JoGorska/bonsai-shop/projects/1). The issues are currently in two categories - done or for the next relese. 
+Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [here](https://github.com/). The issues are currently in two categories - done or for the next relese. 
 
-The issues were than closed automaticaly when the pull request was linked to the issue. 
+Using a Kanban board is a popular approach for implementing agile methodologies in software development. Kanban is a visual tool that allows teams to track the progress of work and manage the flow of tasks from start to finish.
 
+Kanban boards consist of a set of columns that represent the different stages of the workflow, such as "To Do", "In Progress", and "Done". Each task is represented as a card or sticky note, which is moved from one column to the next as it progresses through the workflow.
 
-## Existing Features
+Kanban boards provide a real-time view of the progress of work, which enables the team to identify bottlenecks and prioritize tasks that need attention. The Kanban board also helps to prevent overloading team members with too much work and ensures that tasks are distributed evenly across the team.
 
-### Navbar and Footer
+Using a Kanban board as part of an agile methodology allows teams to be more responsive to changing priorities and customer needs. By providing a clear, visual representation of the workflow, Kanban boards help teams to collaborate more effectively and stay focused on delivering high-quality software in a timely and efficient manner.
 
-![showpiece home page](README_docs/showpieces/01-home.PNG)
+In summary, using a Kanban board as part of agile methodologies is a powerful tool for managing workflows and ensuring that teams are working efficiently and effectively. The Kanban board provides transparency into the progress of work, enables teams to identify bottlenecks and prioritize tasks, and helps to keep the team focused on delivering high-quality software that meets customer needs.
 
-A wide navbar with large icons has been designed for desktop users and narrow simple navbar for mobile phone users. Each navbar appears and disapears according to bootstrap classes. 
-
-The current link has a class active added and the color of the icon and text changes to green. 
-
-### Footer
-Footer is kept very simple as set of links and a little text. It allows user to navigate back to the top of the page, 
-
-
-### The people section of home page
-
-![showpiece home page people](README_docs/showpieces/01-home-people.PNG)
-
-The people section gives a human feal and real connection to real people for the visitor. Each person has been equpped with a short description of what kind of bonsai they like and a button - call for action - directs user to that particuar category of bonsai.
-
-### Shop
-
-![showpiece home page](README_docs/showpieces/02-shop.PNG)
-
-Currently shop features only trees. Future development might see adding bonsai tools added. Shop owner might also consider adding soil and fertilisers for bonsai trees. Next step might be to connect the fertilisers and soil with corresponding tree species to offer user all products he needs for his tree.
-
-Shop features a hero image on the top overlayed with box shadow. This is so page doesn't seem empty. 
-
-The set of tiles has been added on top of the hero image. The tiles act as a sorting and filtering menu. The grid has been taken from the [bootstrap icons page](https://icons.getbootstrap.com/). The tiles are purposed to resamble a dashboard that is so popular on mobile phones.
-
-The user has option to display only the tiles - buttons that are responsible for filtering or only the ones that sort products by given feature. This is to reduce the amount of icons displayed at the time. This can be overwelming especially for mobile phone users. 
-
-![showpiece shop page](README_docs/showpieces/02-shop-trees.PNG)
-
-The trees that are in stock are set on a card each. Cars are organized in grid utilizing bootstrap classes. The mobile phone user will see one card in a row, the desktop computer screen will have 3 cards in a row
-
-Each card is given two buttons buy and view. The buy button adds one item to the trolley. If item is alread in the trolley the button is changed to In trolley with checked symbol. This feature is to allow quick buying process. This enables user to buy an item without going inside to view the details of the tree. Unfortunately the content of the button In trolley breaks to two lines for devices above 800px and below 1000 px. 
-
-### Shoping trolley
-
-Free delivery thershold
-
-I have been considering whether to create the free delivery threshold. It is hard to estimate the true delivery cost of the trees that are worth serveral thousand pounds. 
-
-Some of the bonsai shops owners allow collection only - for the most expensive specimen. The good example  of this cen be found on Herons bonsai shop in the category High Quality Specimen Trees [here](https://www.herons.co.uk/Specimen-Trees/))
-
-Having that said, the value of the most expensive specimen is set in an arbitrary manner and the shop owner can account for the cost of delivery and insurance within the price of the tree. 
-
-I have decided to set the free delivery theshold at 50 just to use it as encouragement tool for first time buyers and small buyers to get them over the threshold line with just one more purchase. 
-
-### FAQ
-
-![showpiece FAQ page](README_docs/showpieces/03-faq.PNG)
-
-Shop owner can edit the question and set status to published so the question is displayed for the public includng the answer.
-
-![showpiece FAQ page, question detail](README_docs/showpieces/03-question-detail.PNG)
-
-The superuser can edit the header and the details of the question. This can be in discretion as shop owner might rewrite the question to get rid of any spelling errors or to make the question more clear to the reader. 
-
-
-### User authentication
-
-![showpiece login page](README_docs/showpieces/04-login.PNG)
-
-All allauth templates were styled to match the colours and feel of the page. 
 
 ### Icons
 
@@ -238,44 +129,6 @@ The icons are also used to ilustrate features of the tree and enviroments. The s
 
 This might be further developed to enable superuser to add features and enviroments from the website without going to admin panel.
 
-### Buttons
-To have unique styling of the page, the rounded-pill class is applied to all buttons. The rulle that green - is applied to all buttons that approve / save or submit information. Those buttons are placed to the right of all the other buttons. 
-
-Buttons are usually equipped with an icon corresponding to the context. 
-
-Links are often styled as a button to allow a nice flow of the page. 
-
-## Future Features 
-
-### Current stock
-
-Stock numbers - the future development needs to be focused on adding a some kind of stock app. The views and webhook handlers might need updating to reflect the impact of the completed purchase on the trees in stock. Currently tree model has quantity column that is not being utilised. 
-
-Further step would be to enable superuser to add new stock to increase quantity of each trees. 
-
-### Javascript validation on input
-
-Another important feature that had to be dropped due to short deadline is javascript validation on input. User currently is notified by django messages in the form of toasts that something went wrong with the form. Idealy we should have javascript preventing submittion and checking if the form is correct on user input. This would give user instant feedback and chance to correct the form. 
-
-### Success page after question is submitted
-
-It would be a good idea to add a success page after the question is submitted. This page could contain the Subscriber form to encourage user to subscribe
-
-### Secured view to unsubscribe
-
-The most urgent feature that wasn't implemented is changing the Subscriber - to that it can be only a registered user. This way all the views can be secured with the decorator and malicious crawling urls wouldn't remove any subscriptions. 
-
-Ideally the Subscriber model should have additional columns recording who edited the subscriber and when.
-
-### Dashboard for superuser
-
-Currently all special pages dedicated for superuser are located in navbar under a user icon. This is higly impractical and should be changed. The superuser should have a admin panel. This would feature all links that require special permittions.
-
-### search option in questions
-
-It would be a great help if the user has been welcomed with a search form on FAQ page. This would let user search the library of our questions to see if someone has asked about the issue he is having. 
-
-This would also limit repeating the same questions by other users. 
 
 ## Search Engine Optimalization
 
