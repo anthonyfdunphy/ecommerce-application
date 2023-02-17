@@ -10,3 +10,5 @@ class SiteStats(models.Model):
 
     class Meta:
         unique_together = ('url',)
+        verbose_name = 'Webpage Views'
+        verbose_name_plural = 'Webpage Views'
