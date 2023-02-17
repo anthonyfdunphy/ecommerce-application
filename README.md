@@ -1,6 +1,16 @@
 # Jewelry Website
 
 
+The Django project site that I created for the jewelry website showcases my skills in using Django, Python, CSS, JavaScript, and HTML. The goal of the project was to create a web application that allows users to browse and purchase jewelry items from the online store.
+
+The project utilizes the Django framework, which is a popular web development framework that enables developers to build high-quality web applications quickly and efficiently. I used custom models, views, and URL setups in Django to create a robust and functional web application that meets the needs of jewelry shoppers.
+
+The custom models in the project were designed to store data related to the jewelry items, including information about the item's name, description, price, and image. The views in the project were created to handle the different requests from the user, such as displaying the jewelry items for sale, adding items to the shopping cart, and processing payments.
+
+In addition, I utilized CSS and JavaScript to create a visually appealing and user-friendly interface that makes it easy for users to navigate the website and find the items they are looking for. The HTML templates were also designed to be responsive, so that the website looks great and works seamlessly on any device, whether it's a desktop computer, tablet, or mobile phone.
+
+Overall, this project demonstrates my understanding of the Django framework and my ability to create custom models, views, and URL setups to build a functional and visually appealing website that meets the needs of users in the jewelry market.
+
 Click [here](url here) to live site.  
 
 ------
