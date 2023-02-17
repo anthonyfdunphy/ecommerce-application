@@ -1,5 +1,6 @@
 # Jewelry Website
 
+![alt text](https://i.imgur.com/OlkpJnW.png)
 
 The Django project site that I created for the jewelry website showcases my skills in using Django, Python, CSS, JavaScript, and HTML. The goal of the project was to create a web application that allows users to browse and purchase jewelry items from the online store.
 
@@ -17,15 +18,19 @@ Click [here](url here) to live site.
 
 ## UX
 
-The design of the website is created in such as way to be similar to some tech products so that the whole product line is minicked and made better with the implimentation of modern design techniques.
+For the development of the website, I followed a comprehensive approach to design the front-end of the web application that met accessibility guidelines, followed the principles of UX design, met its given purpose, and provided a set of user interactions.
 
-To make a purchase user can pay with a credit card as checkout page features stripe payments.
+To begin with, I ensured that the website was designed to be accessible to all users, regardless of their ability. I followed accessibility guidelines, such as providing alternative text for images, making sure that color contrasts met the minimum standards, and using descriptive labels for forms and input fields. This ensured that the website could be used by as many people as possible and met accessibility regulations.
 
-The user can also get involved in asking questions about bonsai and sign up to the newsletter. 
+Next, I focused on creating a design that followed the principles of UX design. I carefully considered how the user would interact with the website and designed the interface to be intuitive and user-friendly. I used clear and concise language, streamlined navigation, and consistent design elements to make the website easy to use and understand.
+
+Additionally, I made sure that the website met its given purpose by aligning the design with the overall goals of the project. I worked closely with the client to understand their requirements and developed a design that met their specific needs and objectives.
+
+Lastly, I provided a set of user interactions that were designed to be engaging and interactive. This included features such as animation, hover effects, and other interactive elements that provided a more dynamic user experience. Overall, the combination of accessible design, UX design principles, purposeful design, and interactive elements made the website an engaging and effective platform that met the client's needs and provided a positive user experience.
 
 ## Purpose
 
-The app is designed as a e-commerce application that encourages the users to make a purchase
+The purpose of this website is to provide an online platform for users to browse and purchase jewelry items from the online store. The website is designed to showcase a range of high-quality jewelry products and make them easily accessible to customers around the world. The website provides a user-friendly interface that allows users to view product details, add items to a shopping cart, and complete purchases securely through the payment processing system. Overall, the purpose of the website is to provide a convenient and enjoyable shopping experience for customers looking to purchase fine jewelry items.
 
 
 ## User Stories
