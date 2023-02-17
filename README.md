@@ -123,6 +123,10 @@ The allauth templates have been styled by bootstrap classes to match the general
 
 The profile app has been designed by using the same template as checkout app. The profile form is on the left and previous orders list is on the right.
 
+### Custom Model Views
+
+3 seperate user models have been created in this django project to differential this and customise the current website setup. I have created custom contact form which allows the site user to submit some user feedback to the site owner. When the site owner is logged into the admin panel - they are then able to see these user messages shown to them under the Admin Panel column called "User Feedback".
+
 
 ## Agile Methodology
 
