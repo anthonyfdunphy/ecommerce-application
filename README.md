@@ -1,4 +1,4 @@
-# Jewelry Website
+# RINGS.S - Jewelry Website
 
 ![alt text](https://i.imgur.com/OlkpJnW.png)
 
