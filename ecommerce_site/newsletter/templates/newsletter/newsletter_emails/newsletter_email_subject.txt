@@ -1,0 +1,1 @@
+Latest comments from all of us at RINGS.S. : {{ faq_latest_question.header }}

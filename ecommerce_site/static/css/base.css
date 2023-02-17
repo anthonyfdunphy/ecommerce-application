@@ -5,6 +5,7 @@
 
 :root {
     --color: #ff90e8;
+    --delivery: lightblue;
 }
 
 html {
@@ -12,13 +13,24 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     background-color: var(--color);
     /* background-color: #ff90e8; */
     font-family: 'MyFont', sans-serif;
+}
+
+.ring-bg{
+    background: url('/media/transparent-bg.png') no-repeat;
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+    /* background-position: 70%; */
+    /* background-size: 100%; */
+    z-index: 100;
 }
 
 .no-bottom-border {
@@ -46,6 +58,10 @@ body {
 
 .text-yellow{
     color: #ffc900;
+}
+
+.search-bg{
+    background-color: var(--color);
 }
 
 /* added styling for main shop now button and hover animation */
@@ -104,6 +120,31 @@ body {
     line-height: 50px;
     border-radius: 25px;
     text-align: center;
+}
+
+/* Styling About Page */
+
+.about-style{
+    text-align: justify;
+    color: lightblue;
+    -webkit-text-stroke: 0.5px black; /* width and color */
+}
+
+/* Card styling css effect */
+
+.card{
+    transition: transform 250ms;
+}
+
+.card:hover {
+    transform: translate3d(-0.5rem, -0.5rem,0rem);
+}
+
+/* Adding styling for free delivery button*/
+
+.free-delivery{
+    -webkit-text-stroke: 1px black; /* width and color */
+    color: var(--delivery);
 }
 
 /* added styling to form to center and remove border styling */
@@ -432,5 +473,9 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .ring-bg{
+        display: none;
     }
 }
