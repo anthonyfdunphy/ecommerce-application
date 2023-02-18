@@ -124,6 +124,19 @@ Once the custom model and view are in place, we can create the HTML page that co
 
 Overall, the custom model for a newsletter subscription is an essential feature for any website that wants to keep their users informed and engaged. By providing a way for users to sign up for the newsletter and receive a thank you message, site owners can build strong relationships with their users and keep them informed about important updates and promotions. With Django, this can be achieved quickly and easily, and is a valuable asset for any website looking to improve user engagement and retention.
 
+#### 3: Contact - Custom Model
+![alt text](https://i.imgur.com/9I3fdnC.png)
+
+A custom model for user feedback is an essential feature for any website owner who wants to stay connected with their users and ensure their website is meeting their needs. With Django, we can create a custom model that allows users to contact the site owner via a contact form, and have their messages stored in a database for the super user to review.
+
+To create this custom model, we first define a Django model that includes the necessary fields to store user feedback data, such as name, email, subject, and message. Next, we need to create a view that handles the form submission and saves the user's data to the database. When the user submits the form, the view receives the data, validates it, and saves it to the database.
+
+Once the custom model and view are in place, we can create the HTML page that contains the contact form for users to send their feedback. This page can be styled with CSS and JavaScript to provide a user-friendly and accessible experience for visitors to the website.
+
+Finally, when the super user signs in to the website's admin panel, they can navigate to the "User Feedback" section to review and respond to the user feedback submissions. This allows the website owner to stay connected with their users, and address any issues or concerns they may have.
+
+Overall, the custom model for user feedback is a critical feature for any website owner looking to improve their website and better understand their users' needs. With Django, this feature can be implemented quickly and easily, allowing site owners to stay connected with their users and build stronger relationships with them.
+
 
 ## Agile Methodology
 
