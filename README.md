@@ -100,6 +100,11 @@ Overall, the creation of wireframes for the homepage, product page, and user pro
 
 3 seperate user models have been created in this django project to differential this and customise the current website setup. I have created custom contact form which allows the site user to submit some user feedback to the site owner. When the site owner is logged into the admin panel - they are then able to see these user messages shown to them under the Admin Panel column called "User Feedback".
 
+#### 1: Homepage views- custom model
+![alt text](https://i.imgur.com/pgHX4y7.png)
+
+I this custom model which was created, a superuser can login to the admin panel of the website. From there they can access the section called Sitestats/Homepage Views. Everytime a person visits the homepage of the site, the views column is increased to show the most accurate number of views on this page.
+
 
 ## Agile Methodology
 
