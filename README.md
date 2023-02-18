@@ -100,10 +100,29 @@ Overall, the creation of wireframes for the homepage, product page, and user pro
 
 3 seperate user models have been created in this django project to differential this and customise the current website setup. I have created custom contact form which allows the site user to submit some user feedback to the site owner. When the site owner is logged into the admin panel - they are then able to see these user messages shown to them under the Admin Panel column called "User Feedback".
 
-#### 1: Homepage views- custom model
+#### 1: Homepage - Custom Model
 ![alt text](https://i.imgur.com/pgHX4y7.png)
 
-I this custom model which was created, a superuser can login to the admin panel of the website. From there they can access the section called Sitestats/Homepage Views. Everytime a person visits the homepage of the site, the views column is increased to show the most accurate number of views on this page.
+The custom model that was created for the site is designed to provide the ability to track the number of views on the homepage of the website. This model enables a superuser to log in to the admin panel of the site and access the section known as Sitestats/Homepage Views. This section provides an accurate representation of the number of times the homepage has been viewed by visitors to the website.
+
+The functionality of the model allows for the views column to be incremented each time a user visits the homepage. This ensures that the views count is always up to date and reflects the most accurate number of visits to the homepage.
+
+The benefit of this custom model is that it provides valuable insights into the popularity of the homepage and the overall success of the website. By tracking the number of views on the homepage, the site owner can better understand the behavior of site visitors and make informed decisions about how to improve the user experience and optimize the site for better performance.
+
+Overall, the custom model for the homepage view counter is an important tool for any website that wants to track and monitor user engagement on the site. With this model in place, site owners can gain valuable insights into site performance and make data-driven decisions to improve the site and better serve the needs of their users.
+
+#### 2: Newsletter - Custom Model
+![alt text](https://i.imgur.com/C0AuRBa.png)
+
+A custom model for a newsletter subscription is a useful feature for websites that wish to engage with their users and keep them informed about news, updates and promotions. With Django, we can create a custom model that allows users to sign up for the newsletter on an HTML page and receive a thank you message upon submitting the form.
+
+To create this custom model, we first define a Django model that contains the necessary fields to store the user data we need. This model might include fields such as the user's email address, their first name, last name, and other relevant information.
+
+Next, we need to create a view that handles the form submission and saves the user's data to the database. When the user submits the form, the view receives the data and validates it. If the data is valid, the view saves the user's information to the database and displays a thank you message to the user.
+
+Once the custom model and view are in place, we can create the HTML page that contains the form for users to sign up for the newsletter. This page can be styled with CSS and JavaScript to provide a user-friendly and accessible experience for visitors to the website.
+
+Overall, the custom model for a newsletter subscription is an essential feature for any website that wants to keep their users informed and engaged. By providing a way for users to sign up for the newsletter and receive a thank you message, site owners can build strong relationships with their users and keep them informed about important updates and promotions. With Django, this can be achieved quickly and easily, and is a valuable asset for any website looking to improve user engagement and retention.
 
 
 ## Agile Methodology
