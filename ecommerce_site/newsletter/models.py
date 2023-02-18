@@ -1,25 +1,15 @@
-"""
-Models created for newsletter on website
-"""
-
 from django.db import models
-from django.contrib.auth.models import User
+from django.utils import timezone
 
+class NewsletterSignup(models.Model):
+    email = models.EmailField(unique=True)
+    name = models.CharField(max_length=100, blank=True, null=True)
+    subscribed = models.BooleanField(default=True)
+    date_subscribed = models.DateTimeField(default=timezone.now)
 
-class Subscriber(models.Model):
-    """
-    creates a table of subscribers that have signed up to newsletter
-    """
+    class Meta:
+        verbose_name = 'Newsletter Signup'
+        verbose_name_plural = 'Newsletter Signups'
 
-    email = models.EmailField(max_length=254, blank=False, null=False)
-    # user can set unsubscribed or can choose for this data to be deleted
-    subscribed = models.BooleanField(default=False, blank=False, null=False)
-    # I keep the record that they have actively accepted privacy policy
-    accepted_privacy_policy = models.BooleanField(default=False,
-                                                  blank=False, null=False)
-    # allows foreign key to be Null if subscriber isn't a registered user
-    registered_user = models.ForeignKey(
-                User, on_delete=models.SET_NULL, blank=True, null=True,
-                related_name='newsletter_subscriber')
-    created_on = models.DateTimeField(auto_now=True, editable=False)
-    updated_on = models.DateTimeField(auto_now=True, editable=False)
+    def __str__(self):
+        return self.email

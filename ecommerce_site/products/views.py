@@ -6,7 +6,6 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
-from sitestats.models import SiteStats
 
 # Create your views here.
 
@@ -64,7 +63,6 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    SiteStats.objects.create(url=request.path_info)
 
     context = {
         'product': product,

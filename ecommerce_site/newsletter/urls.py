@@ -1,13 +1,6 @@
 from django.urls import path
-from . import views
-
+from .views import newsletter_signup
 
 urlpatterns = [
-    path('subscribers', views.subscribers, name='subscribers'),
-    path('add_subscriber', views.add_subscriber, name='add_subscriber'),
-    path('unsubscribe', views.unsubscribe, name='unsubscribe'),
-    path('unsubscribe_registered_user', views.unsubscribe_registered_user,
-         name='unsubscribe_registered_user'),
-    path('send_newsletter', views.send_newsletter, name='send_newsletter'),
-
+    path('', newsletter_signup, name='newsletter_signup'),
 ]
