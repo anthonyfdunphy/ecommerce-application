@@ -41,18 +41,18 @@
   </head>
   <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-0 d-none d-lg-flex border border-black">
+        <div id="topnav" class="row bg-white pt-lg-0 d-none d-lg-flex border border-black" role="navigation" aria-label="main navigation">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                <a href="{% url 'home' %}" class="nav-link main-logo-link" aria-label="home">
                     <h2 class="logo-font text-black my-0"><strong>RIN</strong>GS.S.</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action="{% url 'products' %}">
+                <form method="GET" action="{% url 'products' %}" role="search" aria-label="search">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0 excluded" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0 excluded" type="text" name="q" placeholder="Search our site" aria-label="search input">
                         <div class="input-group-append">
-                            <button class="form-control btn border border-black rounded-0" type="submit">
+                            <button class="form-control btn border border-black rounded-0" type="submit" aria-label="submit search">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -62,12 +62,11 @@
                 </form>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0" aria-label="user options">
                     <li class="list-inline-item dropdown search-bg no-bottom-border">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="user account">
                             <div class="text-center">
-                                <!-- <div><i class="fas fa-user fa-lg"></i></div> -->
-                                <img src="https://img.icons8.com/ios/24/null/group-background-selected.png"/>
+                                <img src="https://img.icons8.com/ios/24/null/group-background-selected.png" alt="User Account" aria-label="user account icon"/>
                                 <p class="my-0 text-white">My Account</p>
                             </div>
                         </a>
@@ -76,19 +75,18 @@
                                 {% if request.user.is_superuser %}
                                 <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                                 {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'profile' %}" class="dropdown-item" aria-label="user profile">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item" aria-label="logout">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item" aria-label="register">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item" aria-label="login">Login</a>
                             {% endif %}
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}" aria-label="shopping cart">
                             <div class="text-center">
-                                <!-- <div><i class="fas fa-shopping-bag fa-lg text-black"></i></div> -->
-                                <img src="https://img.icons8.com/material-outlined/24/null/fast-cart.png"/>
+                                <img src="https://img.icons8.com/material-outlined/24/null/fast-cart.png" alt="Shopping Cart" aria-label="shopping cart icon"/>
                                 <p class="my-0 text-black">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
