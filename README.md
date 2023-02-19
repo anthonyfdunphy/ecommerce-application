@@ -258,7 +258,7 @@ Three oaks utilises [facebook](https://www.facebook.com/Three-Oaks-Bonsai-Shop-1
 
 | App  |  page | result |
 | ------ | ------ | ------ |
-|  Home | Home | [No errors](README_docs/HTML-validator/01-home.pdf) |
+|  Home | Home | [No errors](https://github.com/anthonyfdunphy/ecommerce-application/blob/main/documentation/homepage-valid.png) |
 |  Trees | Add tree form| [No errors](README_docs/HTML-validator/02-shop-add-tree-form.pdf) |
 |  Trees | Shop | [No errors](README_docs/HTML-validator/02-shop.pdf) |
 |  Trees | Tree detail | [No errors](README_docs/HTML-validator/02-tree-detail.pdf) |
