@@ -169,9 +169,13 @@ This might be further developed to enable superuser to add features and envirome
 
 ## Search Engine Optimalization
 
-SEO techniques were implemented to the best of my ability. I used keywords: bonsai, plants, bonsai trees, trees, bonsai advice, bonsai questions, bonsai ilnesses, bonsaid care, bonsai prices, 
+SEO optimization is a critical aspect of any website as it helps to drive traffic to the site and improve its visibility on search engines. In the development of this jewelry website, several steps were taken to ensure that the site was optimized for SEO, including the use of meta tags and keywords.
 
-Image alternative text is descriptive. Precaution measures are in place in case if shop owner doesn't add alt text, the template will get alt text from the tree name.
+Meta tags are HTML tags that provide information about a web page, such as the title, description, and keywords. For this project, the meta tags used included the keywords: signet rings, pendants, engagement rings, jewelry, fine jewelry, wedding rings, diamond rings, gold jewelry, silver jewelry, gemstones, unique jewelry, luxury jewelry, custom jewelry, personalized jewelry, and fashion jewelry. These keywords were carefully selected to target the specific audience that the site was designed for, and to ensure that the site would rank highly on search engine results pages for relevant search queries.
+
+In addition to meta tags and keywords, other SEO optimization techniques were employed, including the use of high-quality content, the implementation of internal linking strategies, and the use of descriptive and informative URLs. These techniques helped to ensure that the site was well-optimized for search engines and that it would attract a steady stream of organic traffic over time.
+
+By utilizing effective SEO optimization techniques such as meta tags and keywords, this jewelry website was able to achieve high visibility on search engines, attract a steady flow of traffic, and ultimately drive sales and revenue for the business.
 
 The site has been equipped with sitemap generated [here](https://www.xml-sitemaps.com/) and robots.txt. 
 
@@ -254,7 +258,7 @@ Three oaks utilises [facebook](https://www.facebook.com/Three-Oaks-Bonsai-Shop-1
 
 | App  |  page | result |
 | ------ | ------ | ------ |
-|  Home | Home | [No errors](README_docs/HTML-validator/01-home.pdf) |
+|  Home | Home | [No errors](https://github.com/anthonyfdunphy/ecommerce-application/blob/main/documentation/homepage-valid.png) |
 |  Trees | Add tree form| [No errors](README_docs/HTML-validator/02-shop-add-tree-form.pdf) |
 |  Trees | Shop | [No errors](README_docs/HTML-validator/02-shop.pdf) |
 |  Trees | Tree detail | [No errors](README_docs/HTML-validator/02-tree-detail.pdf) |
