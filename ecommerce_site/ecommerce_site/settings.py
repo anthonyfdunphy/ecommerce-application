@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-(mb85ti5(ua8jkp(yb**($*m0-fs%&%n!jm$y#@c%d@h=aqp$f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://rings-site.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['https://e-commerce-site.herokuapp.com/', 'localhost']
 
 # Application definition
 
@@ -123,39 +123,16 @@ WSGI_APPLICATION = 'ecommerce_site.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR /'db.sqlite3',
-    }
-}
-
 # DATABASES = {
-#     'default': dj_database_url.parse('postgres://tibcfcfg:fzE7uWQR0_1QiFGXVEuPTCwwribKaIyu@manny.db.elephantsql.com/tibcfcfg')
-# }
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# NEW CODE HERE//////////
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-# if 'DATABASE_URL' in os.environ:
-#     DATABASES = {
-#         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-#     }
-# else:
-#     DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR /'db.sqlite3',
 #     }
 # }
 
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
